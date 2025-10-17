@@ -1,0 +1,13 @@
+# Ambiente Virtual
+venv/
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+
+# Pastas de loops gerados (ignora qualquer pasta que comece com o nome de um gênero)
+rock_loop_*
+funk_loop_*
+jazz_loop_*
+blues_loop_*
+reggae_loop_*
