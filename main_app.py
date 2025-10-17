@@ -72,7 +72,7 @@ class MainWindow(QMainWindow):
         self.progression_input = QLineEdit()
         controls_layout.addWidget(self.progression_input)
 
-        # --- NOVO: Campo para Título da Capa ---
+        # Campo para Título da Capa
         controls_layout.addWidget(QLabel("Nome da Capa (Título do Pack):"))
         self.cover_title_input = QLineEdit()
         self.cover_title_input.setPlaceholderText("Ex: Sunset Funk Grooves")

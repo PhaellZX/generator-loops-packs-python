@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import mido
 import random
 import time
@@ -512,7 +509,6 @@ def generate_cover_art(style: str, key: str, bpm: int, folder_path: str, cover_t
             font = ImageFont.load_default()
             small_font = ImageFont.load_default()
         
-        # --- ALTERAÇÃO AQUI ---
         title_text = cover_title  # Usa o título vindo da interface
         subtitle_text = f"{key.upper()} - {bpm} BPM"
         
@@ -629,7 +625,6 @@ def run_generation_process(style_to_generate, bars, key, scale, bpm, progression
     pdf_filename = f"{style_to_generate}_score"
     create_pdf_score(folder_name, pdf_filename, bass_ly, drums_ly, piano_ly, pdf_title)
     
-    # --- ALTERAÇÃO AQUI ---
     generate_cover_art(style_to_generate, KEY, BPM, folder_name, cover_title=cover_title)
 
     print(f"\nSucesso! Loop completo gerado e salvo na pasta:\n  --> '{folder_name}'")

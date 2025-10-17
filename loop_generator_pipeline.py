@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import mido
 import random
 import time
@@ -437,7 +434,6 @@ def generate_cover_art(style: str, key: str, bpm: int, folder_path: str, filenam
         'reggae': [(200, 0, 0), (255, 220, 0), (0, 150, 50), (10, 10, 10)]
     }
     
-    # --- CORREÇÃO APLICADA AQUI ---
     # Usando o dicionário correto 'style_palettes'
     palette = style_palettes.get(style, [(0,0,0), (255,255,255)]) # Fallback
 
