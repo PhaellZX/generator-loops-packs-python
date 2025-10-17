@@ -1,6 +1,6 @@
 # Generator Loops Packs Python
 
-![Interface do App](![alt text](imgs/image.png))
+![Interface do App](imgs/image.png)
 
 Um programa desktop avançado para a geração algorítmica de pacotes de loops musicais. Criado em Python, este aplicativo combina teoria musical, aleatoriedade controlada e arte generativa para produzir pacotes de loops completos, prontos para produção musical e estudo.
 
